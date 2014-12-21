@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+require 'pbf_parser'
+
+def output_objects(objs)
+  objs.each do |obj|
+    if obj[:tags]['amenity'] == 'pub'
+      puts [obj[:tags]['name'], obj[:id], obj[:lat], obj[:lon]].join("\t")
+    end
+  end
+end
+
+ARGV.each do |filename|
+  PbfParser.new(filename).each do |nodes, ways, relations|
+    output_objects nodes
+    output_objects ways
+    output_objects relations
+  end
+end

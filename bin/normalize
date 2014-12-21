@@ -1,0 +1,139 @@
+#!/usr/bin/env ruby
+
+PREFIXES = File.open('lib/prefixes.txt').read.split("\n")
+PREFIXES_REGEXP = Regexp.new("^(#{PREFIXES.join('|')}) ", Regexp::IGNORECASE)
+
+SUFFIXES = File.open('lib/suffixes.txt').read.split("\n")
+SUFFIXES_REGEXP = Regexp.new(" (#{SUFFIXES.join('|')})$", Regexp::IGNORECASE)
+
+class String
+  def titlecase!
+    self[0] = self[0].upcase
+    nil
+  end
+
+  def titlecase
+    s = self.dup
+    s.titlecase!
+    s
+  end
+end
+
+def chop_string(name, regexp, strings)
+  if name.sub!(regexp, '')
+    n = strings.select { |s| s.downcase == $1.downcase }
+    STDERR.puts "Multiple prefix/suffix normalisations possible: #{n.join(', ')}" if n.size > 1
+    [n.first, name]
+  else
+    [nil, name]
+  end
+end
+
+def normalise_name(name)
+  # Do some general substitutions first as they help us chop off any prefix or suffix
+  name.sub!(/^Thje /i, 'The ') # 'thje' is a repeated typo
+
+  name.gsub! ' & ', ' and '
+  name.gsub! 'Nº ', 'No '
+  name.gsub! 'No. ', 'No '
+
+  name.sub!(/ Café/i, ' Cafe')
+  name.sub!(/ PH$/i, ' Public House')
+  name.sub!(/ PH$/i, ' Public House')
+
+  # Chop off the prefix and suffix
+  prefix, name = chop_string(name, PREFIXES_REGEXP, PREFIXES)
+  suffix, name = chop_string(name, SUFFIXES_REGEXP, SUFFIXES)
+
+  # Deal with the rest
+  if name.sub!(/ (arms|head|house|hall)$/, '')
+    name += " #{$1.titlecase}"
+  end
+
+  name.sub!(/St\. /, 'St ')
+
+  name.sub!(/['oO]+ ?(Bells|Nails)/, 'o\' \1')
+  name.sub! 'Yewtree', 'Yew Tree'
+
+  name.sub!(/^3 (Colts|Feathers|Horses|Jolly Butchers|Mariners)$/, 'Three \1')
+  name.sub!(/^4 (Aces)$/, 'Four \1')
+  name.sub!(/^5 (Arches|Bells)$/, 'Five \1')
+
+  name.sub!(/(Bull|Traveller|Mason|Bull|Nag|Butcher|Forester|Duke|Joiner|Stag|Cooper|Cricketer|Boar|Gardener|Oddfellow|Bricklayer|Farmer|Miner|Blacksmith|Carpenter|King|Oliver|Neill|Queen|Sam|Smith|World|Yate)[s']+( )?/, '\1!s\2')
+
+  name = case name
+    # Change "X And/and/& Y" to "X and Y"
+    when /^([\s\w!]+)\s+(And|and)\s+([\s\w]+)$/
+      "#{$1} and #{$3}"
+    # Change "X At/at/Of/of/On/on (the/The) Y" to "X at/of/on (The) Y"
+    when /^([\s\w!]+)\s+(At|at|Of|of|On|on|In|in|With|with)\s+(?:(The|the)\s+)?([\s\w]+)$/
+      x, p, d, y = $1, $2, $3, $4
+
+      p.downcase! if p
+      d.titlecase! if d
+
+      [x, p, d, y].compact.join(' ')
+    else
+      name
+    end
+
+  if name == ''
+    STDERR.puts "name is empty but prefix is #{prefix}" unless prefix.nil?
+    STDERR.puts "name is empty but suffix is #{suffix}" unless suffix.nil?
+
+    nil
+  else
+    [prefix, name, suffix].join('|')
+  end
+end
+
+def output_object(obj)
+  name, id, lat, lon = obj
+
+  name = '' if name.nil?
+  name.gsub!(/\s+/, ' ')
+
+  name = '' if name == 'Closed pub'
+  name = '' if name == 'Closed'
+  name = '' if name == '?'
+  name = '' if name == '??? & Anchor'
+
+  name.sub!(/^Former 'Sycamore'/, 'Sycamore')
+  name.sub!(/^(Form site of|Former) /, '')
+  name.sub! ' [closed]', ''
+  name.sub! ' (closed?)', ''
+  name.sub!(/^\s*\(\s*closed\s*\)\s*/i, '')
+  name.sub! ' - currently closed', ''
+  name.sub! ' - Closed 2013', ''
+  name.sub! ' (closed 2008)', ''
+  name.sub!(/ \(closed$/, '')
+  name.sub! ' (closed spring 2012)', ''
+  name.sub! ' (closed Summer 2012)', ''
+  name.sub! ' (closed Jun 2011)', ''
+  name.sub! ' (closed 7/09)', ''
+  name.sub! ' (Closed 9th April 2012)', ''
+  name.sub! '/closed for sale', ''
+  name.sub!(/ - CURRENTLY CLOSED$/, '')
+  name.sub! ' - being refurbished', ''
+  name.sub!(/\s*-\s*closed\s*$/i, '')
+  name.sub!(/\s*\(\s*(closed down|now closed|closed long-term|private members|open again|pub|ex-Masons|no longer open|site of|being renn?ovated|wine bar|demolished|open for business|no longer open|clo?se?d|derelict|demolished|disused)\s*\)\s*$/i, '')
+
+  name.sub!(/ \((JD |J\.D\. )?[Ww]ea?therspoons?\)$/, '')
+  name.sub! ' - Wetherspoon', ''
+  name.sub! 'J D Wetherspoon --', ''
+
+  # Chains and (current/former) breweries (and misspellings of such)
+  name.sub!(/ ?[-\(] ?(Beefeater|Brewster Bears|Jos(ep|pe)h Holts|Toby Carvery|J\.W\. Lees|Brewers Fayre|The Idle Brewery|Everards) ?\)? ?$/, '')
+
+  # Normalisation
+  normalised_name = normalise_name(name.strip)
+
+  puts [name, normalised_name, id, lat, lon].join("\t") if normalised_name
+end
+
+ARGV.each do |file_name|
+  File.open(file_name).each_line do |l|
+    l.chomp!
+    output_object(l.split("\t"))
+  end
+end

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Pub names 1</title>
+    <style>
+      .subunit.SCT path {
+        fill: #ddc;
+      }
+
+      .subunit.WLS path {
+        fill: #cdd;
+      }
+
+      .subunit.NIR path {
+        fill: #cdc;
+      }
+
+      .subunit.ENG path {
+        fill: #dcd;
+      }
+
+      .subunit.IRL {
+        display: none;
+      }
+
+      .subunit text {
+        fill: #777;
+        fill-opacity: .5;
+        font-size: 20px;
+        font-weight: 300;
+        text-anchor: middle;
+      }
+
+      .subunit-boundary {
+        fill: none;
+        stroke: #777;
+        stroke-dasharray: 2,2;
+        stroke-linejoin: round;
+      }
+
+      .subunit-boundary.IRL {
+        stroke: #aaa;
+      }
+
+      .pub,
+      .pub-label {
+        fill: #00f;
+      }
+
+      .place,
+      .place-label {
+        fill: #444;
+      }
+
+      text {
+        font-size: 10px;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        pointer-events: none;
+      }
+
+      .link {
+        display: block;
+        border-left: dashed 2px #ccc;
+        padding-left: 18px;
+        margin-left: -20px;
+        width: 720px;
+      }
+
+      .link:hover {
+        background: #fff;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Pub names in the United Kingdom</h1>
+      <aside>Extracted from Open Street Map</aside>
+    </header>
+
+    <div id="option">
+      <input name="updateButton" type="button" value="*Mermaid*" onclick="updateData('data/mermaid.json')"/>
+      <input name="updateButton" type="button" value="Three Horseshoes" onclick="updateData('data/three-horseshoes.json')"/>
+      <input name="updateButton" type="button" value="Queen's Head" onclick="updateData('data/queens-head.json')"/>
+    </div>
+
+    <script src="js/d3.v3.min.js"></script>
+    <script src="js/topojson.v1.min.js"></script>
+    <script src="js/map.js"></script>
+    <script>d3.json("data/uk.json", function(error, uk) { if (error) return console.warn(error); dispatch.ready(uk); });</script>
+  </body>
+</html>

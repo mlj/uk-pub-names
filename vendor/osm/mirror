@@ -1,0 +1,10 @@
+#!/bin/sh
+for country in wales scotland england; do
+  filename=${country}-latest.osm.pbf
+  curl http://download.geofabrik.de/europe/great-britain/${filename} > ${filename}
+done
+
+
+echo "Data files downloaded from http://download.geofabrik.de/europe on `date`:" > README.md
+echo >> README.md
+md5sum *.pbf >> README.md

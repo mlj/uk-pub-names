@@ -29,3 +29,21 @@ pub belongs to. The normalized name is on the form
 where `prefix` is one of _The_ or _Ye_, and `suffix` is one of a number of
 commonly occuring words like _Inn_, _Tavern_ etc. (see `lib/suffixes.txt` for a
 full list).
+
+## Rebuilding the data files
+
+First change to the upstream data directory and download the Open Street Map files, which are huge and therefore note included here:
+
+```sh
+cd vendor/osm
+./update
+```
+
+Next, assuming you have Ruby and bundler installed, do
+
+```sh
+bundle
+make
+```
+
+The raw extracted data ends up in `raw.tsv`, and a version that has been normalized is dumped in `pubnames.tsv`.

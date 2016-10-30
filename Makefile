@@ -6,5 +6,5 @@ raw.tsv: bin/extract
 		vendor/osm/scotland-latest.osm.pbf \
 		vendor/osm/wales-latest.osm.pbf	| sort > $@
 
-pubnames.tsv: bin/normalize raw.tsv lib/suffixes.txt lib/prefixes.txt
+pubnames.tsv: bin/normalize raw.tsv
 	ruby bin/normalize raw.tsv | sort > $@

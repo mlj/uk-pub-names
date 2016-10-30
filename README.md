@@ -22,13 +22,7 @@ Column | Contents
 
 The normalized name uses more consistent spelling and does not include
 superfluous annotations like "closed down" or the name of the brewery that the
-pub belongs to. The normalized name is on the form
-
-    prefix|base_name|suffix
-
-where `prefix` is one of _The_ or _Ye_, and `suffix` is one of a number of
-commonly occuring words like _Inn_, _Tavern_ etc. (see `lib/suffixes.txt` for a
-full list).
+pub belongs to.
 
 ## Rebuilding the data files
 

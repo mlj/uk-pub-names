@@ -90,7 +90,7 @@ Adelphi	Adelphi	81405705
 Adelphi Vaults	Adelphi Vaults	1098069017	53.4121908	-4.334611
 Adelphi Vaults	Adelphi Vaults	1933998476	53.3887355	-2.5883853
 Admiral	Admiral	573253906	52.0363351	-0.3039854
-Admiral Bembow (Top House)	Admiral Bembow (Top House)	1687114506	52.793194	-2.8997889
+Admiral Bembow (Top House)	Admiral Bembow	1687114506	52.793194	-2.8997889
 Admiral Benbow	Admiral Benbow	2422209497	50.117075	-5.5343453
 Admiral Benbow	Admiral Benbow	318587475		
 Admiral Cunningham	Admiral Cunningham	493417702	51.4209096	-0.7638958
@@ -1772,12 +1772,12 @@ Brewhouse and Kitchen	Brewhouse and Kitchen	162029339
 Brewhouse and Kitchen	Brewhouse and Kitchen	21992884	52.1383367	-0.4666921
 Brewhouse and Kitchen	Brewhouse and Kitchen	373110929		
 Brewhouse and Kitchen	Brewhouse and Kitchen	94928594		
-Brewhouse and Kitchen - Microbrewery	Brewhouse and Kitchen - Microbrewery	1970909970	53.3273387	-2.2292315
-Brewhouse and Kitchen (White Swan)	Brewhouse and Kitchen (White Swan)	337564280		
+Brewhouse and Kitchen - Microbrewery	Brewhouse and Kitchen	1970909970	53.3273387	-2.2292315
+Brewhouse and Kitchen (White Swan)	Brewhouse and Kitchen	337564280		
 Brewhouse	Brewhouse	3978822786	53.378952	-1.4723517
 Brewhouse & Kitchen	Brewhouse and Kitchen	264390890		
 Brewhouse & Kitchen.	Brewhouse and Kitchen.	308839178	51.5319384	-0.1057146
-Brewhouse & Kitchen (Southampton)	Brewhouse and Kitchen (Southampton)	159919247		
+Brewhouse & Kitchen (Southampton)	Brewhouse and Kitchen	159919247		
 Brewin Dolphin	Brewin Dolphin	3320076017	51.7519896	-1.2545792
 Brewmaster	Brewmaster	691632516	51.5113231	-0.1281015
 Brew Monkey	Brew Monkey	2696560551	52.4723055	-2.0816517
@@ -1884,7 +1884,7 @@ Briggs Bar	Briggs Bar	573902152	55.9019196	-4.2297767
 Brigham & Cowan Employees Welfare Club	Brigham and Cowan Employees Welfare Club	4347190703	54.9998085	-1.4322279
 Brighton Arms Hotel	Brighton Arms Hotel	187094464		
 Brighton Beer Dispensary	Brighton Beer Dispensary	2446836567	50.8247023	-0.1490509
-Brighton Belle (Hungry Horse)	Brighton Belle (Hungry Horse)	199093227		
+Brighton Belle (Hungry Horse)	Brighton Belle	199093227		
 Brig O'Don	Brig O'Don	315176459		
 Brig O' Tay	Brig O' Tay	366744302	56.4379555	-2.9433324
 Brimsham Park	Brimsham Park	447992266		
@@ -1971,7 +1971,7 @@ Broom House Inn	Broom House Inn	266972488	53.4561189	-2.1103515
 Broom Tavern	Broom Tavern	126531318		
 Broseley Social Club	Broseley Social Club	3988358011	52.6138852	-2.4845855
 Brotherswater Inn	Brotherswater Inn	348765067		
-Brouge (The Old Goat)	Brouge (the Old Goat)	249245566	51.436109	-0.3503881
+Brouge (The Old Goat)	Brouge	249245566	51.436109	-0.3503881
 Broughton Arms	Broughton Arms	30216476	53.0522744	-2.3801761
 Brown Bear	Brown Bear	175593655		
 Brown Cow	Brown Cow	151655129		
@@ -3676,7 +3676,7 @@ Crown & Sceptre	Crown and Sceptre	1704594681	51.1237363	1.2921871
 Crown & Sceptre	Crown and Sceptre	241915640	51.7889654	-0.4880906
 Crown & Sceptre	Crown and Sceptre	247472641	51.8354881	-3.0058491
 Crown & Sceptre	Crown and Sceptre	276146932		
-Crown & Sceptre (Free House)	Crown and Sceptre (Free House)	670097856	51.7415729	-2.203596
+Crown & Sceptre (Free House)	Crown and Sceptre	670097856	51.7415729	-2.203596
 Crowns	Crowns	1116658776	50.8232946	-0.1445638
 Crown & Sugar Loaf	Crown and Sugar Loaf	3815898017	51.5140074	-0.1050091
 Crown Taven	Crown Taven	1312420301	51.7102164	-0.9448692
@@ -4402,7 +4402,7 @@ Earl of Chesterfield	Earl of Chesterfield	352408723
 Earl of Cornwall	Earl of Cornwall	685768541	51.511833	-0.623421
 Earl of Derby	Earl of Derby	225399270		
 Earl of Essex	Earl of Essex	375848872	51.5338264	-0.0996848
-Earl of Lichfield (Drum)	Earl of Lichfield (Drum)	2589313371	52.6838633	-1.8268054
+Earl of Lichfield (Drum)	Earl of Lichfield	2589313371	52.6838633	-1.8268054
 Earl of Lonsdale	Earl of Lonsdale	357280502		
 Earl of Stamford	Earl of Stamford	181867063		
 Earl Of Wakefield	Earl of Wakefield	322128490	51.534068	0.0468905
@@ -4859,7 +4859,7 @@ Fitzherbert Arms	Fitzherbert Arms	103359574
 Fitzrovia Belle	Fitzrovia Belle	333670382	51.5224569	-0.1359084
 Fitzroy Tavern	Fitzroy Tavern	138339524		
 Fitzwalter Arms	Fitzwalter Arms	31398406	51.2458625	1.2300482
-Fitzwilliam Arms (Green Man)	Fitzwilliam Arms (Green Man)	1814997916	52.6051156	-0.3056242
+Fitzwilliam Arms (Green Man)	Fitzwilliam Arms	1814997916	52.6051156	-0.3056242
 Fitzwilliams Arms Hotel	Fitzwilliams Arms Hotel	228704724		
 Five Alls	Five Alls	196088627	51.6429299	-2.6743139
 Five Alls	Five Alls	507005398	51.8881086	-2.0799593
@@ -5787,7 +5787,7 @@ Gower Hotel	Gower Hotel	3578244641	51.5856444	-4.0539851
 Gow's	Gow's	3702964037	51.5171431	-0.0833748
 Goytre Arms	Goytre Arms	116931971		
 Grace's	Grace's	299376453	51.4040993	-0.0558099
-Graduate Bar (The Herdwick)	Graduate Bar (the Herdwick)	1717051133	54.0045839	-2.7877132
+Graduate Bar (The Herdwick)	Graduate Bar	1717051133	54.0045839	-2.7877132
 Graduate	Graduate	639594737	52.6300265	-1.1376617
 Grafton Arms	Grafton Arms	113115182		
 Graham Arms Hotel	Graham Arms Hotel	229912283		
@@ -6816,7 +6816,7 @@ Hot Rocks	Hot Rocks	810359924	50.716359	-1.8762376
 Hotshotz Bar	Hotshotz Bar	775525153	51.347809	-2.977721
 Houghton Arms	Houghton Arms	286954164	53.5159204	-2.1490698
 House Bar	House Bar	394948057	51.4189492	-0.1993475
-House (Dick Hudson's / The Fleece)	House (Dick Hudson's / the Fleece)	2279291663	53.8747499	-1.8117893
+House (Dick Hudson's / The Fleece)	House	2279291663	53.8747499	-1.8117893
 House in the Tree	House in the Tree	220801200		
 House on the Green	House on the Green	667479477	52.7929357	0.443152
 House Without A Name	House Without a Name	1139397598	53.6055695	-2.3981257
@@ -6875,7 +6875,7 @@ Huntsman and Hounds	Huntsman and Hounds	287243496	51.4899499	-0.08567
 Huntsman and Hounds	Huntsman and Hounds	366696992	52.3898446	1.4998807
 Huntsman	Huntsman	1871543120	53.7290629	-0.9790251
 Huntsmans Tavern	Huntsmans Tavern	390275361	51.8747628	0.8653284
-Hurran's (Inn on the Estuary	Hurran's (Inn on the Estuary	535184647	51.6619261	-4.0777691
+Hurran's (Inn on the Estuary	Hurran's	535184647	51.6619261	-4.0777691
 Hurst Arms	Hurst Arms	641426215	50.7783805	0.2651265
 Hurt Arms	Hurt Arms	239312196		
 Hurtwood Inn Hotel	Hurtwood Inn Hotel	462218838	51.1919904	-0.447165
@@ -7316,7 +7316,7 @@ King & Queen	King and Queen	2390843748	51.630424	-1.710685
 King & Queen	King and Queen	312135012		
 King Richard III	King Richard III	2421470601	52.6358772	-1.1390969
 King Rufus	King Rufus	107914060		
-Kings Arms (Hoggs Head)	Kings Arms (Hoggs Head)	344900989	51.8878083	0.8925803
+Kings Arms (Hoggs Head)	Kings Arms	344900989	51.8878083	0.8925803
 Kings Arms Hotel	Kings Arms Hotel	18085955	53.3230874	-1.9162935
 King's Arms Hotel	King's Arms Hotel	2305085878	50.8571775	-2.1655619
 Kings Arms Hotel	Kings Arms Hotel	267977397	50.4074957	-4.6705201
@@ -7981,7 +7981,7 @@ Lloyds No. 1 Bar	Lloyds Number 1 Bar	329050803
 Lloyds No1 Bar	Lloyds Number 1 Bar	366593186	50.8409205	-1.0976136
 Lloyds No 1	Lloyds Number 1	1778185451	51.5376904	-0.9041895
 Lloyds No1	Lloyds Number 1	417902335	54.5759117	-1.2380389
-Lloyd's No 1 (The Ice Wharf)	Lloyd's Number 1 (the Ice Wharf)	25831307	51.5408816	-0.1453769
+Lloyd's No 1 (The Ice Wharf)	Lloyd's Number 1	25831307	51.5408816	-0.1453769
 Llwchwr Workmens' Club	Llwchwr Workmens' Club	370562025	51.6677294	-4.0336949
 L.M.R.C.A. Club	L.M.R.C.A. Club	165249452		
 Loaf	Loaf	1674992635	52.6306731	-1.1466336
@@ -8245,7 +8245,7 @@ Mainwaring Arms	Mainwaring Arms	1698786202	52.9655684	-2.2841362
 Maisons Bar	Maisons Bar	469279470	51.7292921	0.4715221
 Major Oak	Major Oak	364816919		
 Major Yorke (Closed)	Major Yorke	164813315		
-Ma Kelly's (Foxhall)	Ma Kelly's (Foxhall)	2326538768	53.8094683	-3.0548423
+Ma Kelly's (Foxhall)	Ma Kelly's	2326538768	53.8094683	-3.0548423
 Ma Kellys	Ma Kellys	504665930	53.9220945	-3.0113201
 Ma Kelly's South	Ma Kelly's South	3767171007	53.7997892	-3.0509805
 Maldon Grey	Maldon Grey	474737365	52.0382689	0.7476046
@@ -8705,7 +8705,7 @@ Ministry of Ale	Ministry of Ale	143261677
 Mink Tattoo Coffee Bar	Mink Tattoo Coffee Bar	2561958985	54.5764021	-1.2349798
 Minster Inn	Minster Inn	558801090	53.963117	-1.0882716
 Minster View Hotel	Minster View Hotel	411811777	53.7454788	-0.8685262
-Mirth, Marvel and Maud (Former EMD Cinema)	Mirth, Marvel and Maud (Former EMD Cinema)	130410583		
+Mirth, Marvel and Maud (Former EMD Cinema)	Mirth, Marvel and Maud	130410583		
 Miryshay	Miryshay	300294539	53.7979517	-1.7223203
 Miskin Arms	Miskin Arms	704448874	51.5186176	-3.375798
 Missing	Missing	72884810		
@@ -8752,7 +8752,7 @@ Montague Arms	Montague Arms	2395415055	51.4498252	-0.2400917
 Montefiore Arms	Montefiore Arms	308295786	51.3384389	1.4243884
 Montford House	Montford House	721565751	55.8265945	-4.2460206
 Montgomerie Arms	Montgomerie Arms	444926205	55.7649848	-4.1758878
-Montgomery of Alamein (The Barracks Bar)	Montgomery of Alamein (the Barracks Bar)	256094092		
+Montgomery of Alamein (The Barracks Bar)	Montgomery of Alamein	256094092		
 Montgomerys	Montgomerys	307161796		
 Montgomery's	Montgomery's	4353989188	53.6824554	-1.4986344
 Montgomery's Tower	Montgomery's Tower	447878280	52.7093	-2.7587
@@ -10208,7 +10208,7 @@ Plas Derwen	Plas Derwen	116934464
 Plasterers Arms	Plasterers Arms	171202245		
 Plas Yn Dinas	Plas Yn Dinas	1251934597	52.7749132	-3.2031107
 Platform 13	Platform 13	2535769700	52.4767523	-1.8979731
-Platform 5 (P5)	Platform 5 (P5)	675974041	53.3754724	-2.1875936
+Platform 5 (P5)	Platform 5	675974041	53.3754724	-2.1875936
 Platform 5	Platform 5	2868039188	55.9460012	-3.2184457
 Platform Ale House	Platform Ale House	442788508		
 Platform One	Platform One	4251003089	53.41386	-2.0895854
@@ -12246,7 +12246,7 @@ Samuels	Samuels	1644349513	52.6825602	-1.8294428
 Sam Wellers	Sam Wellers	373546324		
 Sandanista!	Sandanista!	342601298	53.8010166	-1.5410355
 Sandbar	Sandbar	247269405	53.4707091	-2.2359252
-Sandbrook PH (Clipper)	Sandbrook PH (Clipper)	963882546	53.3981993	-3.100807
+Sandbrook PH (Clipper)	Sandbrook Public House	963882546	53.3981993	-3.100807
 Sand Dancer	Sand Dancer	3121933148	54.9961778	-1.4092761
 Sandford Ale House	Sandford Ale House	3539642140	51.8967217	-2.0699418
 Sandford Arms	Sandford Arms	340072787		
@@ -12733,12 +12733,12 @@ Sir Walter Raleigh	Sir Walter Raleigh	446064645	50.6557844	-3.3222761
 Sir Walter Tyrrell	Sir Walter Tyrrell	271421	50.9131996	-1.6192422
 Sir William Robert Loosley	Sir William Robert Loosley	440824715	51.6313353	-0.7547854
 Sir William	Sir William	194962079		
-Site of former Pub (Royal Oak)	Site of Former Pub (Royal Oak)	674868873	52.0397157	-0.5571927
+Site of former Pub (Royal Oak)	Site of Former Pub	674868873	52.0397157	-0.5571927
 Sitwell Arms	Sitwell Arms	1871518344	52.358528	-2.9453314
 Sitwell Arms	Sitwell Arms	247816697		
 Sitwell Arms	Sitwell Arms	343389054	53.2991001	-1.335558
 Sitwell Tavern	Sitwell Tavern	70730414		
-Six Barrel Draughthouse (Opens Nov 2016)	Six Barrel Draughthouse (Opens Nov 2016)	288620082		
+Six Barrel Draughthouse (Opens Nov 2016)	Six Barrel Draughthouse	288620082		
 Six Bells Inn	Six Bells Inn	671273087	50.808241	-3.2944407
 Six Bells Public House	Six Bells Public House	3479759799	51.0811974	0.7722126
 Six Bells	Six Bells	1151341442	51.6611962	-0.0867588
@@ -13394,7 +13394,7 @@ Stormont Arms	Stormont Arms	64239613
 Stormont Main Working Mens Club	Stormont Main Working Mens Club	4311127517	54.9253684	-1.5739546
 Storm Queen	Storm Queen	600374120	55.8706366	-4.3034222
 Stowey Arms	Stowey Arms	477408771	50.6816259	-3.4978295
-St Patrick's Well (Mardale Inn)	St Patrick's Well (Mardale Inn)	332006242		
+St Patrick's Well (Mardale Inn)	St Patrick's Well	332006242		
 St Paulinus Social Club	St Paulinus Social Club	356006827	53.6882028	-1.6440591
 St Paul's Tavern	St Paul's Tavern	167364237		
 St Paul's WMC	St Paul's WMC	4307438089	53.7491192	-2.4914292
@@ -13672,7 +13672,7 @@ Talbot Inn	Talbot Inn	380567181
 Talbot Inn	Talbot Inn	387007850		
 Talbot Inn	Talbot Inn	495580023	51.7772827	-1.3638792
 Talbot Inn	Talbot Inn	604663117	51.7155426	-1.9622067
-Talbot Inn (the Dog)	Talbot Inn (the Dog)	1687116429	52.7939466	-2.9027769
+Talbot Inn (the Dog)	Talbot Inn	1687116429	52.7939466	-2.9027769
 Talbot	Talbot	1451995991	52.6617069	-2.0323943
 Talbot	Talbot	278860690	51.0002418	-2.0762237
 Talbot	Talbot	311904870		
@@ -14464,7 +14464,7 @@ The Aspen Tree	The Aspen Tree	597238716	51.6003652	0.1772876
 The Aspley	The Aspley	1270900601	53.6449021	-1.7742751
 The Assembly Inn	The Assembly Inn	171254679		
 The Assembly Rooms	The Assembly Rooms	58599149		
-The Assembly Rooms ('Wetherspoons')	The Assembly Rooms ('Wetherspoons')	255136115	51.3326615	-0.2699121
+The Assembly Rooms ('Wetherspoons')	The Assembly Rooms	255136115	51.3326615	-0.2699121
 The Assembly	The Assembly	378030793		
 The Associates Club	The Associates Club	4379220960	54.9359745	-1.5998957
 The Astolat	The Astolat	28393339	51.2370361	-0.5894834
@@ -16676,7 +16676,7 @@ The Bunk Inn	The Bunk Inn	696557932	51.4466287	-1.2934455
 The Bun Penny	The Bun Penny	326367699	50.8040933	-1.2000062
 The Bun Penny	The Bun Penny	564951079	51.3727222	1.1288097
 The Burcott Inn	The Burcott Inn	870489313	51.2078839	-2.6871127
-The Bureau (Royal Tavern)	The Bureau (Royal Tavern)	1313473198	53.4534079	-2.7397587
+The Bureau (Royal Tavern)	The Bureau	1313473198	53.4534079	-2.7397587
 The Burley Inn	The Burley Inn	161602519		
 The Burlington Arms	The Burlington Arms	454360140	51.5113317	-0.1417854
 The Burma Star	The Burma Star	344874496	53.333009	-2.7085681
@@ -19174,6 +19174,7 @@ The duke of wellington	The Duke of Wellington	446042771
 The Duke of Wellington	The Duke of Wellington	49529687	51.529413	-0.0879324
 The Duke of Wellington	The Duke of Wellington	52755412	51.5401086	-0.0744743
 The Duke of Wellington	The Duke of Wellington	796778429	54.5335648	-1.6542074
+The Duke (of York)	The Duke	383932467	51.5227905	-0.1164943
 The Duke of York	The Duke of York	117281545	51.3920091	-0.3067183
 The Duke Of York	The Duke of York	118451640		
 The Duke of York	The Duke of York	1512535157	52.2468357	-0.9037785
@@ -19189,7 +19190,6 @@ The Duke of York	The Duke of York	297059662	51.2387256	-0.7701854
 The Duke of York	The Duke of York	2988615210	52.020157	0.2398086
 The Duke of York	The Duke of York	300566174		
 The Duke of York	The Duke of York	329985352	52.9779374	-0.0279822
-The Duke (of York)	The Duke (of York)	383932467	51.5227905	-0.1164943
 The Duke of York	The Duke of York	390524926	53.3100253	-1.3554177
 The Duke Of York	The Duke of York	3987789661	52.6118774	-2.4819909
 The Duke of York	The Duke of York	457930725	53.8061794	-1.8564511
@@ -20065,7 +20065,7 @@ The Foundry	The Foundry	3473330561	50.715733	-1.9823421
 The Foundry	The Foundry	671662249	53.4923308	-2.5003374
 The Foundry	The Foundry	882334386	50.8264157	-0.14009
 The Fountaine Inn	The Fountaine Inn	191359668		
-The Fountain (Harvester)	The Fountain (Harvester)	387009826		
+The Fountain (Harvester)	The Fountain	387009826		
 The Fountain Head	The Fountain Head	137403356		
 The Fountain Head	The Fountain Head	1874227901	50.6938038	-3.151111
 The Fountain Inn	The Fountain Inn	158698444		
@@ -21275,7 +21275,7 @@ The Greave Dunning	The Greave Dunning	964063396	53.376714	-3.1237715
 The Grebe	The Grebe	83596282	52.7719237	1.51505
 The Greedy Goose	The Greedy Goose	428051920		
 The Green Acre	The Green Acre	315280111	51.5238472	-3.7089443
-The Green Ayre - J D Wetherspoon	The Green Ayre - J D Wetherspoon	985894822	54.0499096	-2.7994329
+The Green Ayre - J D Wetherspoon	The Green Ayre	985894822	54.0499096	-2.7994329
 The Greenbank Hotel	The Greenbank Hotel	317518630		
 The Green Bar & Brasserie	The Green Bar and Brasserie	4357557823	54.9456436	-1.5192219
 The Green Berry	The Green Berry	977975032	51.2130991	1.399864
@@ -22028,7 +22028,7 @@ The Heathcock	The Heathcock	292593136	51.4965263	-3.2228032
 The Heathfield Arms	The Heathfield Arms	666270816	50.8555218	-1.2089123
 The Heathgates	The Heathgates	262538032	52.7268845	-2.7353335
 The Heath House	The Heath House	170560554		
-The Heath (Table Table)	The Heath (Table Table)	282256604	50.8511746	-1.4170462
+The Heath (Table Table)	The Heath	282256604	50.8511746	-1.4170462
 The Heath	The Heath	553078682	51.499138	-3.184468
 The Heathway	The Heathway	162543059		
 The Heaton Park	The Heaton Park	138184030		
@@ -22457,7 +22457,7 @@ The Hoskins	The Hoskins	3868790103	54.5235701	-1.5576695
 The Hotel Leprechaun	The Hotel Leprechaun	3051688824	53.2158782	-3.0038468
 The Hotham Arms	The Hotham Arms	97995174	53.7976597	-0.6437655
 The Hotspur	The Hotspur	253168027	54.9770974	-1.6151705
-The Hound Inn (The Jerry)	The Hound Inn (the Jerry)	302561621		
+The Hound Inn (The Jerry)	The Hound Inn	302561621		
 The Hour Glass	The Hour Glass	237941638	51.6329007	-0.7847069
 The Hourglass	The Hourglass	255709616	51.4945157	-0.1686008
 The Hour Glass	The Hour Glass	265662292	51.486375	-0.0843308
@@ -23088,7 +23088,7 @@ the Kings Head, Harvester Pub	The Kings Head, Harvester Pub	784027331	51.3001722
 The Kings Head Inn	The Kings Head Inn	118379800		
 The King's Head Inn (Wetherspoons)	The King's Head Inn	261289736		
 The King's Head, Kingscourt	The King's Head, Kingscourt	1724349152	51.7284028	-2.2272401
-The King's Head (Low House)	The King's Head (Low House)	822753184	52.3025056	1.3675135
+The King's Head (Low House)	The King's Head	822753184	52.3025056	1.3675135
 The King's Head	The King's Head	1003829944	54.4852959	-1.2328457
 The Kings Head	The Kings Head	1013289466	54.8950942	-2.9363701
 The King's Head	The King's Head	104381109		
@@ -23194,7 +23194,7 @@ The King's Head	The King's Head	836462305	51.1744731	-0.158972
 The King's Head	The King's Head	88690952		
 The King's Head	The King's Head	898193613	50.8571466	0.2498411
 The Kings Head	The Kings Head	97535870		
-The King's Head (Under new ownership)	The King's Head (Under New Ownership)	164722532		
+The King's Head (Under new ownership)	The King's Head	164722532		
 The King's Highway	The King's Highway	365980077	57.4796523	-4.2275063
 The King's Highway	The King's Highway	65621705		
 The Kingsholme Inn	The Kingsholme Inn	25697381	51.8706684	-2.2417654
@@ -23632,7 +23632,7 @@ The Littlemoor	The Littlemoor	444623034	53.7901172	-1.6568886
 The Little Oak	The Little Oak	314177158	53.1925409	-2.8753867
 The Little Owl	The Little Owl	2696831074	51.8768192	-2.0532603
 The Little Owl	The Little Owl	937868352	53.2052325	-2.9007716
-The Little Pig (closed now an estate agent)	The Little Pig (Closed Now An Estate Agent)	150357859		
+The Little Pig (closed now an estate agent)	The Little Pig	150357859		
 The Little Rose	The Little Rose	340472063		
 The Little Ship	The Little Ship	658928612	50.5626447	-2.449542
 The Little Upton Muggery	The Little Upton Muggery	757103391	52.0617303	-2.2184605
@@ -23672,7 +23672,7 @@ The Local	The Local	28790635	51.2491673	1.021552
 The Lochavullin	The Lochavullin	529594699	56.4110236	-5.4697864
 The Loch Inn	The Loch Inn	446392411	55.9626907	-3.1593614
 The Lochside	The Lochside	448450831		
-The Lock and Barrel (Shepherd Neame)	The Lock and Barrel (Shepherd Neame)	198733566		
+The Lock and Barrel (Shepherd Neame)	The Lock and Barrel	198733566		
 The Lock and Quay	The Lock and Quay	2821886937	53.6650044	-2.6167208
 The Lock Inn	The Lock Inn	442722766	52.4100031	-2.249732
 The Lock Keeper	The Lock Keeper	2794292473	53.5579215	-2.3244264
@@ -23706,7 +23706,7 @@ The Londesborough	The Londesborough	82754287	54.0806632	-0.1961382
 The Londesborough	The Londesborough	91189178	51.5576054	-0.080603
 The London and Rye	The London and Rye	2924051716	51.4470389	-0.0182261
 The London Apprentice	The London Apprentice	34190679	51.4711368	-0.3208597
-The Londonderry (closed, demolished)	The Londonderry (Closed, Demolished)	310936584	52.4924501	-1.990659
+The Londonderry (closed, demolished)	The Londonderry	310936584	52.4924501	-1.990659
 The Londonderry	The Londonderry	375559405		
 The Londoner	The Londoner	1241319539	51.58636	-2.9977869
 The Londoner	The Londoner	1432652874	55.850311	-4.23045
@@ -25058,7 +25058,7 @@ The Norland	The Norland	251148566	53.7245991	-0.4233703
 The Normanby	The Normanby	31097337		
 The Norman Inn	The Norman Inn	356337386		
 The Norman Knight	The Norman Knight	111491388		
-The Northbridge CLOSED	The Northbridge CLOSED	293146083	50.7248102	-3.5368814
+The Northbridge CLOSED	The Northbridge	293146083	50.7248102	-3.5368814
 The Northbrook Arms	The Northbrook Arms	446391674	51.1548788	-1.2251574
 The Northcote	The Northcote	287612242	51.4607381	-0.1671775
 The North End Club	The North End Club	152710487		
@@ -25774,7 +25774,7 @@ The Organ Inn	The Organ Inn	4097564789	51.2054351	-2.1834253
 The Organ	The Organ	1736118825	53.482274	-2.0513084
 The Organ	The Organ	245036183	53.4634217	-1.9905674
 The Orient	The Orient	60177229	53.346026	-2.8288847
-The Original Bay Horse (Long Pull)	The Original Bay Horse (Long Pull)	933763026	53.6019144	-2.5522343
+The Original Bay Horse (Long Pull)	The Original Bay Horse	933763026	53.6019144	-2.5522343
 The Original Chequers Inn	The Original Chequers Inn	99253985		
 The Original Oak	The Original Oak	176016224		
 The Original Rosslyn Inn	The Original Rosslyn Inn	245046096	55.8569995	-3.1635964
@@ -26684,7 +26684,7 @@ The Post Inn	The Post Inn	3826915712	50.7176808	-3.8556242
 The Post Office Bar	The Post Office Bar	283644698	56.4681767	-2.875801
 The Post & Telegraph	The Post and Telegraph	1155519665	50.8230339	-0.1404452
 The Post	The Post	2923726807	55.8438069	-3.9655805
-The Pot House (formerly The Harbour of Refuge)	The Pot House (Formerly the Harbour of Refuge)	632771173	54.6942428	-1.1828188
+The Pot House (formerly The Harbour of Refuge)	The Pot House	632771173	54.6942428	-1.1828188
 The Pot Kiln	The Pot Kiln	3772107898	51.4538313	-1.206478
 The Pot Oil	The Pot Oil	336710430		
 The Pot Still	The Pot Still	1601429525	55.8629022	-4.2577203
@@ -27526,7 +27526,7 @@ The Red Lion Inn	The Red Lion Inn	425537969
 The Red Lion Inn	The Red Lion Inn	485348581	53.1825262	-3.0716957
 The Red Lion Inn	The Red Lion Inn	59399864		
 The Red Lion Inn	The Red Lion Inn	770556389	52.5825562	-1.5977113
-The Red Lion - JD Wetherspoon	The Red Lion - JD Wetherspoon	4325193512	55.1313955	-1.6005543
+The Red Lion - JD Wetherspoon	The Red Lion	4325193512	55.1313955	-1.6005543
 The Red Lion & Pineapple	The Red Lion and Pineapple	302166735	51.5081822	-0.2764777
 The Red Lion Pub	The Red Lion Pub	530676991	50.8167727	0.2914394
 The Red Lions Free House	The Red Lions Free House	79013429		
@@ -28071,7 +28071,7 @@ The Robin	The Robin	306616848	53.776747	-0.2949576
 The Rob Roy	The Rob Roy	34852621	53.3977219	-2.9501107
 The Rock and Fountain	The Rock and Fountain	102171538		
 The Rocket Pools	The Rocket Pools	340047310		
-The Rocket (Student Union bar)	The Rocket (Student Union Bar)	1678321931	51.5516766	-0.1106216
+The Rocket (Student Union bar)	The Rocket	1678321931	51.5516766	-0.1106216
 The Rocket	The Rocket	132319674		
 The Rocket	The Rocket	152294598	53.4063494	-2.9000736
 The Rocket	The Rocket	288353870	51.5087148	-0.2638763
@@ -28103,7 +28103,7 @@ The Rodney Inn	The Rodney Inn	813650898	50.1000938	-5.2732857
 The Rodney	The Rodney	1753792016	51.3776087	1.3550735
 The Rodney	The Rodney	1933585358	53.3945644	-2.5936672
 The Rodwell	The Rodwell	1593557068	50.605169	-2.4599105
-The Roebuck Inn (The Burton Ale House)	The Roebuck Inn (the Burton Ale House)	320317638		
+The Roebuck Inn (The Burton Ale House)	The Roebuck Inn	320317638		
 The Roebuck Inn	The Roebuck Inn	1595555217	50.9536675	-2.0042672
 The Roebuck Inn	The Roebuck Inn	315526169		
 The Roebuck Inn	The Roebuck Inn	317024823		
@@ -28137,7 +28137,7 @@ The Roebuck	The Roebuck	67827145
 The Roebuck	The Roebuck	829657610	53.5582018	-2.0563353
 The Roebuck	The Roebuck	86097086		
 The Roe Cross	The Roe Cross	244814960	53.4622036	-2.0161562
-The Roe Deer (Ex Panther)	The Roe Deer (Ex Panther)	26610931	51.2411441	-0.1960181
+The Roe Deer (Ex Panther)	The Roe Deer	26610931	51.2411441	-0.1960181
 The Roll Call	The Roll Call	26592057	50.8810799	-1.339983
 The Rollers Arms	The Rollers Arms	378184725		
 The Rolleston	The Rolleston	2093723269	51.5592303	-1.7881429
@@ -28165,7 +28165,7 @@ The Ropewalk	The Ropewalk	99999874
 The Ropley	The Ropley	314322838		
 The Roscoe Head	The Roscoe Head	2702380003	53.40224	-2.9741677
 The Rose and Crown (Closed)	The Rose and Crown	287591902	51.0711649	-4.0461938
-The Rose and Crown (Eli's)	The Rose and Crown (Eli's)	1194309412	51.0363006	-2.8139323
+The Rose and Crown (Eli's)	The Rose and Crown	1194309412	51.0363006	-2.8139323
 The Rose and Crown Inn	The Rose and Crown Inn	29638167	54.9140463	-2.0401061
 The Rose and Crown	The Rose and Crown	102423695		
 The Rose and Crown	The Rose and Crown	1230968072	51.6473586	-3.0228959
@@ -29422,7 +29422,7 @@ The Snooty Fox	The Snooty Fox	371239086	54.2021863	-2.5969087
 The Snooty Fox	The Snooty Fox	83665763		
 The Snowdrop Inn	The Snowdrop Inn	42428687	50.8720385	0.0229933
 The Snowdrop	The Snowdrop	59750599	50.9980715	-0.071999
-The Snug (at The Vine)	The Snug (at the Vine)	171887778		
+The Snug (at The Vine)	The Snug	171887778		
 The Snug Bar	The Snug Bar	440824043	51.6285756	-0.7512518
 The Snuggery	The Snuggery	2538470790	57.1464597	-2.0967384
 The Snug	The Snug	159704089		
@@ -29500,7 +29500,7 @@ The Spinners at Cowling	The Spinners at Cowling	663651189	53.6456001	-2.6089439
 The Spinning Mule	The Spinning Mule	632341237	53.5775181	-2.4267895
 The Spirit of Endeavour	The Spirit of Endeavour	105750207		
 The Spirt	The Spirt	199650676		
-The Spite (Roebuck)	The Spite (Roebuck)	27537137	53.9240929	-1.6968224
+The Spite (Roebuck)	The Spite	27537137	53.9240929	-1.6968224
 The Spitfire	The Spitfire	396970862		
 The Spitfire	The Spitfire	684376465	51.2727961	0.4003989
 The Splotlands	The Splotlands	1036629392	51.4838656	-3.1629791
@@ -30100,7 +30100,7 @@ The Summit	The Summit	264876628
 The Summoner	The Summoner	57871472		
 The Sun and Woolpack	The Sun and Woolpack	61978949	51.6711495	-0.0408205
 The Sunbeam	The Sunbeam	4075418280	52.5864387	-2.1226902
-The Sun (Calbourne)	The Sun (Calbourne)	136720887		
+The Sun (Calbourne)	The Sun	136720887		
 The Sundowner	The Sundowner	290491009	53.3751183	-2.7733279
 The Sun Hotel & Bar	The Sun Hotel and Bar	598485237	54.0498907	-2.8023856
 The Sun Hotel	The Sun Hotel	310741403	53.8343749	-1.7765756
@@ -30923,7 +30923,7 @@ The Tiger	The Tiger	63368856	53.8186082	-0.6154586
 The Tiger	The Tiger	667478442	53.0137837	-1.5639447
 The Tiger	The Tiger	70940955		
 The Tiger	The Tiger	85658380		
-the Tight Line (closed permanently)	The Tight Line (Closed Permanently)	366206746		
+the Tight Line (closed permanently)	The Tight Line	366206746		
 The Tilbury	The Tilbury	390377062	51.8486461	-0.1582492
 The Tillotsons Arms	The Tillotsons Arms	653299484	53.8846064	-2.5749746
 The Tilly Shilling	The Tilly Shilling	1383417516	51.2934346	-0.756605
@@ -31239,7 +31239,7 @@ The Ugly Duckling	The Ugly Duckling	3183576292	51.5730234	-0.5278907
 The Umbrella	The Umbrella	169074426		
 The Under Graduate	The Under Graduate	471078431	52.2838798	-1.533899
 The Underground	The Underground	450140503	51.0784465	-4.0580558
-The Unicorn (Formerly Scireborn Tavern)	The Unicorn (Formerly Scireborn Tavern)	182401800		
+The Unicorn (Formerly Scireborn Tavern)	The Unicorn	182401800		
 The Unicorn Hotel	The Unicorn Hotel	366013070		
 The Unicorn Inn	The Unicorn Inn	303791393	53.7410242	-1.4888807
 The Unicorn Inn	The Unicorn Inn	506119708	53.3885994	-2.763496
@@ -31356,7 +31356,7 @@ The Victoria Arms	The Victoria Arms	285955595	51.4349621	-0.7893592
 The Victoria Arms	The Victoria Arms	4002252789	54.305195	-2.0663532
 The Victoria Arms	The Victoria Arms	435431161		
 The Victoria Arms	The Victoria Arms	529453807	54.701214	-1.1927902
-The Victoria ( Butcher Brig)	The Victoria ( Butcher Brig)	632445738	53.7813314	-2.4050594
+The Victoria ( Butcher Brig)	The Victoria	632445738	53.7813314	-2.4050594
 The Victoria Club	The Victoria Club	475833090	53.7044931	-0.8792537
 The Victoria Club	The Victoria Club	529969162	54.1172924	-0.1244717
 The Victoria Comet	The Victoria Comet	184237773		
@@ -32529,7 +32529,7 @@ The White Horse	The White Horse	875701982	52.2899764	-1.1491553
 The White Horse	The White Horse	962284548	50.9445333	-2.3059349
 The White Horse	The White Horse	98768087		
 The White House Inn	The White House Inn	31421922	53.6745246	-1.3476952
-The White House - J D Wetherspoon	The White House - J D Wetherspoon	4195191858	51.8811964	-0.4178666
+The White House - J D Wetherspoon	The White House	4195191858	51.8811964	-0.4178666
 The Whitehouses	The Whitehouses	38242929		
 The White House	The White House	1708064210	51.23726	0.4649524
 The White House	The White House	2429983947	51.6687207	-0.041543
@@ -32966,7 +32966,7 @@ The Woodend	The Woodend	309147674	53.8352021	-1.7620606
 The Wooden Fender Inn	The Wooden Fender Inn	131650911		
 The Wooden Spoon	The Wooden Spoon	496220762	50.9927998	-1.7425719
 The Woodgrove	The Woodgrove	123725748		
-The Woodhall Arms (Papillon)	The Woodhall Arms (Papillon)	387189102	51.8383413	-0.0993703
+The Woodhall Arms (Papillon)	The Woodhall Arms	387189102	51.8383413	-0.0993703
 The Woodlands Hotel	The Woodlands Hotel	263987369		
 The Woodlands Tavern	The Woodlands Tavern	34190586	51.4729787	-0.3376386
 The Woodlands	The Woodlands	205680977		
@@ -33107,7 +33107,7 @@ The Wyandotte	The Wyandotte	931878694	52.35037	-1.5717076
 The Wych Elm	The Wych Elm	30629850	51.417141	-0.2940029
 The Wych Elm	The Wych Elm	368200635	52.6811398	-1.9278916
 The Wychwood Inn	The Wychwood Inn	1705156897	51.8603534	-1.5981608
-The Wye Bridge House (a J D Wetherspoon free house)	The Wye Bridge House (A J D Wetherspoon Free House)	95853536		
+The Wye Bridge House (a J D Wetherspoon free house)	The Wye Bridge House	95853536		
 The Wyggeston	The Wyggeston	311212664	52.8206861	-1.6495798
 The Wykeham Arms	The Wykeham Arms	338297447	51.0588004	-1.3148463
 The Wykham Arms	The Wykham Arms	1628471731	52.0376121	-1.4876739
@@ -33479,7 +33479,7 @@ Toby Carvery	Toby Carvery	369648863
 Toby Carvery	Toby Carvery	391595972		
 Toby Carvery	Toby Carvery	3973553595	54.8862075	-1.5517634
 Toby Carvery	Toby Carvery	77516244		
-Toby Carvery (Turf Lodge)	Toby Carvery (Turf Lodge)	78185165		
+Toby Carvery (Turf Lodge)	Toby Carvery	78185165		
 Toby Jug	Toby Jug	275221493	55.8604883	-4.2590286
 Toby Pub and Carvery	Toby Pub and Carvery	28016340		
 Toby Pub & Carvery	Toby Pub and Carvery	240762663	51.4066701	-1.3164595
@@ -33955,7 +33955,7 @@ Victory	Victory	24557477	51.8531505	-2.2373914
 Victory	Victory	27682739	50.7974988	-1.1054848
 Village Club	Village Club	432969053	51.1924861	-0.3253202
 Village East	Village East	101358448		
-Village Hall (was Jolly Farmer)	Village Hall (Was Jolly Farmer)	457562546	51.6028846	-0.5654068
+Village Hall (was Jolly Farmer)	Village Hall	457562546	51.6028846	-0.5654068
 Village Home	Village Home	49294781	50.7853033	-1.1502251
 Village Inn(closed)	Village Inn	452495379	55.8931527	-4.0477332
 Village Inn	Village Inn	12016307	50.6254778	-1.1785684
@@ -34333,7 +34333,7 @@ West Wylam Inn	West Wylam Inn	774819174	54.9613591	-1.8453732
 West Yorkshire Sports and Social Club	West Yorkshire Sports and Social Club	266827584	53.6590412	-1.4772622
 Wetherspoon - Picture House	Wetherspoon - Picture House	217787104		
 Wetherspoons Cricketers	Wetherspoons Cricketers	727270890	52.0595422	1.1544965
-Wetherspoons (Old Market Hall)	Wetherspoons (Old Market Hall)	1704171154	53.4929375	-1.2873605
+Wetherspoons (Old Market Hall)	Wetherspoons	1704171154	53.4929375	-1.2873605
 Wetherspoon's The Winter Gardens	Wetherspoon's the Winter Gardens	462615653	53.9942012	-1.5439439
 Wetherspoons	Wetherspoons	313099976	53.7957046	-1.5486597
 Wetherspoons	Wetherspoons	34995425		
@@ -34503,7 +34503,7 @@ White Hart Inn	White Hart Inn	795818127	51.11352	-1.4881217
 White Hart Inn	White Hart Inn	856422638	51.8118526	-2.5046127
 White Hart Sports & Social Club	White Hart Sports and Social Club	2354958408	54.3234845	-2.5280728
 White Hart Tap	White Hart Tap	25970326	51.74889	-0.3364065
-White Hart (was Crab and Ale House)	White Hart (Was Crab and Ale House)	798097267	50.2634908	-5.0493274
+White Hart (was Crab and Ale House)	White Hart	798097267	50.2634908	-5.0493274
 White Hart	White Hart	104488091		
 White Hart	White Hart	106327549		
 White Hart	White Hart	1129895899	51.2064782	-1.480149
@@ -34904,7 +34904,7 @@ William Mitchell	William Mitchell	128882959
 William Morris	William Morris	175707113	51.7322434	-1.217606
 William Morris	William Morris	320788659	51.4929928	-0.2252384
 William Peel	William Peel	741593904	52.127999	-0.2860756
-William Rufus (Lloyds No 1 Bar)	William Rufus (Lloyds Number 1 Bar)	3469712840	54.891243	-2.9318849
+William Rufus (Lloyds No 1 Bar)	William Rufus	3469712840	54.891243	-2.9318849
 Williams Arms	Williams Arms	321588884	51.1000621	-4.1527286
 William Shenstone	William Shenstone	235008006		
 Williamson's Tavern	Williamson's Tavern	159925752		

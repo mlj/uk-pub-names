@@ -1,0 +1,38 @@
+define Article     {The} | {Ye};
+define Possessive  {'s} | {s};
+define House       {Inn} | {Tavern} | {Public House} | {Art Gallery} | {Bar} | {Bar and Brasserie} | {Bar and Grill} | {Bar and Kitchen} | {Bar and Lounge} | {Bar and Restaurant} | {Beer and Bottle Shop} | {Bistro} | {Brasserie} | {Brewery Shop} | {Brewhouse} | {Cafe} | {Carvery} | {Coaching Inn and Restaurant} | {Deli} | {Dining} | {Free House} | {Function Rooms} | {Galley} | {Gin and Ale House} | {Grill} | {Hotel} | {Hotel Pub and Restaurant} | {Hotel and Public House} | {Inn and Restaurant} | {Kitchen} | {Kitchen Bar} | {Liquor Loft} | {Lodges} | {Lounge} | {Pub} | {Pub and Kitchen} | {Public House} | {Restaurant} | {Social Club} | {Sports Bar and Grill} | {Sports Bar and Restaurant} | {Steakhouse} | {Tasting Room} | {Theatre and Bar} | {Wine and Ale House};
+
+define OldNew      {Old} | {Olde} | {New};
+
+define Colour      {White} | {Whyte} | {Red} | {Black} | {Green} | {Greene} | {Golden} | {Blue};
+
+define Number      {3} | {Three} | {Five} | {Seven};
+
+define Adjective   Number | Colour | {Royal} | {Fat};
+
+define Animal      {Horse} | {Lion} | {Hart} | {Harte} | {Fox} | {Hare} | {Stag} | {Deer} | {Dog} | {Cat} | {Reindeer} | {Swan} | {Swanne} | {Bear} | {Bull} | {Dolphin} | {Eagle} | {Goose} | {Greyhound} | {Hounds} | {Dragon} | {Horses} | {Lamb} | {Cock} | {Griffin} | {Phoenix} | {Peacock} | {Unicorn} | {Falcon} | {Roebuck} | {Partridge} | {Duck} | {Elephant} | {Pheasant} | {Rabbit} | {Nag} | {Ram} | {Tiger} | {Boar} | {Bull};
+
+define Noun        {Oak} | {Cherry Tree} | {Yew Tree} | {Walnut Tree} | {Rose} | {Star} | {Sun} | {Moon} | {Gate} | {Clocktower} | {Windmill} | {Watermill} | {House} | {Castle} | {Cross} | {Wheel} | {Wharf} | {Yard} | {Knight} | {Jockey} | {Groom} | {Crown} | {Plough} | {Bell} | {Ship} | {Coach} | {Railway} | {Anchor} | {Coach} | {Horseshoes} | {Station} | {Fountain} | {Bridge} | {Angel} | {Man} | {Child} | {Gun} | {Bells} | {Wagon} | {Waggon} | {Harrow} | {Plough} | {Flag};
+
+define Person      {King} | {Queen} | {Prince of Wales} | {Victoria} | {Duke of York} | {Duke of Wellington} | {Wellington} | {Duke of Cornwall} | {Duke of Cambridge} | {Duke of Edinburgh} | {Robin Hood} | {Lord Nelson} | {King William IV} | {Cavendish} | {Churchill} | {Derby} | {Devonshire} | {Bedford} | {Saracen} | {Turk};
+
+define Occupation  {Copper} | {Cricketer} | {Carpenter} | {Farmer} | {Fiddler} | {Forester} | {Gardener} | {Waterman} | {Weaver} | {Thatcher} | {Smith} | {Shepherd} | {Saddler} | {Mason} | {Joiner} | {Forrester} | {Fisherman} | {Cooper} | {Collier} | {Coachmaker} | {Blacksmith} | {Butcher};
+
+define Prefix      (Article " ") (OldNew " ");
+define Suffix      (" " House);
+
+define TypeName    (Adjective " ") Noun (Possessive);
+define TypeAnimal  (Adjective " ") Animal (Possessive);
+define TypeAnd     (Adjective " ") (Animal | Noun) " " {and} " " (Adjective " ") (Animal | Noun);
+define TypePerson  (Adjective " ") (Person | Occupation) (Possessive);
+define TypeArms    (Adjective " ") (Person | Occupation) (Possessive) " " {Arms};
+define TypeHead    (Adjective " ") (Person | Occupation | Animal) Possessive " " {Head};
+
+regex (Prefix) [[ "+NAME"     .x. TypeName   ] |
+                [ "+AND"      .x. TypeAnd    ] |
+                [ "+ANIMAL"   .x. TypeAnimal ] |
+                [ "+ARMS"     .x. TypeArms   ] |
+                [ "+HEAD"     .x. TypeHead   ] |
+                [ "+PERSON"   .x. TypePerson ]] (Suffix);
+
+save stack match.bin

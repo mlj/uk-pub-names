@@ -1,5 +1,5 @@
-Data files downloaded from http://download.geofabrik.de/europe on Sun 30 Oct 16:04:27 GMT 2016:
+Data files downloaded from http://download.geofabrik.de/europe on Sat 15 Jun 16:45:32 BST 2019:
 
-    a53bc6516ae7fa509fdc1c348e2f5771  england-latest.osm.pbf
-    82bd2206d4a4a4ad60de16b724f13c16  scotland-latest.osm.pbf
-    e053d1e401d36bf41505173a68b4fd07  wales-latest.osm.pbf
+    c4e3b99d76db83d9a3197b00c95d78de  england-latest.osm.pbf
+    171db671d1469172f1f8781cf7551bab  scotland-latest.osm.pbf
+    2f2253808872cef0e627c6c746ca6925  wales-latest.osm.pbf

@@ -1,4 +1,4 @@
-all: pubnames.tsv
+all: pubnames.tsv grammar.txt
 
 raw.tsv: bin/extract
 	bundle exec ruby bin/extract \
@@ -14,3 +14,6 @@ match.bin: match.script
 
 match: match.bin pubnames.tsv
 	cut -f2 pubnames.tsv | flookup match.bin
+
+grammar.txt: grammar.rb pubnames.tsv
+	bundle exec ruby grammar.rb < pubnames.tsv > $@
